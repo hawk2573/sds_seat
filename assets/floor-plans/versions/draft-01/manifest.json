@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "status": "schematic-review-draft",
+  "baseId": "appr3HkHrFMEyePyN",
+  "sourceAnnotationSha256": "5bb7124bce9271d27b460c82dd3b5674df8c8c6af9c92c09e9e5296f28fa9845",
+  "notes": [
+    "Each file has its own coordinate system; use only its matching geometry.",
+    "Linked geometry preserves existing Space IDs; it does not create workstations.",
+    "Reference desks are visual placeholders and must not be imported as active inventory.",
+    "PhD positions are proposed. All arrangements need on-site confirmation.",
+    "No Airtable writes are performed by this generator."
+  ],
+  "plans": [
+    {
+      "key": "mdes",
+      "name": "MDes",
+      "zoneSpaceRecordId": "recmBD1D59hycFitC",
+      "floorPlanRecordId": "recA56XJcvgIRzlTq",
+      "level": "Level 2",
+      "image": "mdes.png",
+      "svg": "mdes.svg",
+      "pdf": "pdf/kaplan-mdes.pdf",
+      "coordinateWidth": 880,
+      "coordinateHeight": 1140,
+      "imageWidth": 2640,
+      "imageHeight": 3420,
+      "revision": "draft-01"
+    },
+    {
+      "key": "faculty",
+      "name": "Faculty",
+      "zoneSpaceRecordId": null,
+      "floorPlanRecordId": "recRUJ8K3DPI9bvdM",
+      "level": "Level 2",
+      "image": "faculty.png",
+      "svg": "faculty.svg",
+      "pdf": "pdf/kaplan-faculty.pdf",
+      "coordinateWidth": 1140,
+      "coordinateHeight": 880,
+      "imageWidth": 3420,
+      "imageHeight": 2640,
+      "revision": "draft-01"
+    },
+    {
+      "key": "phd",
+      "name": "PhD",
+      "zoneSpaceRecordId": "reccjuSTjZ1r118rY",
+      "floorPlanRecordId": "recGw87IiAwbkGVL4",
+      "level": "Level 2",
+      "image": "phd.png",
+      "svg": "phd.svg",
+      "pdf": "pdf/kaplan-phd.pdf",
+      "coordinateWidth": 880,
+      "coordinateHeight": 1140,
+      "imageWidth": 2640,
+      "imageHeight": 3420,
+      "revision": "draft-01"
+    },
+    {
+      "key": "shared-administrative",
+      "name": "Public & Administrative",
+      "zoneSpaceRecordId": null,
+      "floorPlanRecordId": "recFFPN6IpsyqmoHM",
+      "level": "Level 2",
+      "image": "shared-administrative.png",
+      "svg": "shared-administrative.svg",
+      "pdf": "pdf/kaplan-shared-administrative.pdf",
+      "coordinateWidth": 1140,
+      "coordinateHeight": 880,
+      "imageWidth": 3420,
+      "imageHeight": 2640,
+      "revision": "draft-01"
+    }
+  ],
+  "revision": "draft-01",
+  "sourceCommit": "ae3579b2ef1a2113ed28b7de9c39bc5b4eecfb80"
+}

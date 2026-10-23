@@ -1,0 +1,1307 @@
+{
+  "version": 1,
+  "status": "review-draft-only",
+  "createdDate": "2026-09-07",
+  "baseId": "appr3HkHrFMEyePyN",
+  "floorPlanRecordId": "recmjz41vDiw18aoC",
+  "sourceImage": "../../assets/floor-plans/Kaplan Numbered Floor Plan.png",
+  "sourcePdf": "../../assets/floor-plans/Kaplan Numbered Floor Plan.pdf",
+  "sourceWidth": 959,
+  "sourceHeight": 719,
+  "annotationSha256": "5bb7124bce9271d27b460c82dd3b5674df8c8c6af9c92c09e9e5296f28fa9845",
+  "notes": [
+    "No records or geometry have been written to Airtable by this draft.",
+    "Faculty and PhD zone outlines deliberately overlap; each workstation is represented once.",
+    "The two zones with no spaceRecordId require reviewed Zone records before import.",
+    "PhD positions are schematic. The old east-side furnishings remain visible as reference.",
+    "MDes numbering follows the source labels and existing Airtable records; missing numbers do not create new desks."
+  ],
+  "zones": [
+    {
+      "key": "shared-administrative",
+      "name": "Shared & Administrative",
+      "spaceRecordId": null,
+      "color": "#238b45",
+      "points": [
+        {
+          "x": 0.348279,
+          "y": 0.212796
+        },
+        {
+          "x": 0.688217,
+          "y": 0.212796
+        },
+        {
+          "x": 0.704901,
+          "y": 0.294854
+        },
+        {
+          "x": 0.754953,
+          "y": 0.294854
+        },
+        {
+          "x": 0.754953,
+          "y": 0.624478
+        },
+        {
+          "x": 0.872784,
+          "y": 0.624478
+        },
+        {
+          "x": 0.887383,
+          "y": 0.767733
+        },
+        {
+          "x": 0.882169,
+          "y": 0.773296
+        },
+        {
+          "x": 0.639208,
+          "y": 0.773296
+        },
+        {
+          "x": 0.629823,
+          "y": 0.767733
+        },
+        {
+          "x": 0.638165,
+          "y": 0.742698
+        },
+        {
+          "x": 0.586027,
+          "y": 0.731572
+        },
+        {
+          "x": 0.590198,
+          "y": 0.773296
+        },
+        {
+          "x": 0.54536,
+          "y": 0.764951
+        },
+        {
+          "x": 0.47341,
+          "y": 0.77886
+        },
+        {
+          "x": 0.468196,
+          "y": 0.552156
+        },
+        {
+          "x": 0.296142,
+          "y": 0.568846
+        },
+        {
+          "x": 0.265902,
+          "y": 0.568846
+        },
+        {
+          "x": 0.265902,
+          "y": 0.545202
+        },
+        {
+          "x": 0.302398,
+          "y": 0.531293
+        },
+        {
+          "x": 0.339937,
+          "y": 0.50904
+        },
+        {
+          "x": 0.339937,
+          "y": 0.454798
+        },
+        {
+          "x": 0.333681,
+          "y": 0.439499
+        },
+        {
+          "x": 0.225235,
+          "y": 0.442281
+        },
+        {
+          "x": 0.234619,
+          "y": 0.344924
+        },
+        {
+          "x": 0.250261,
+          "y": 0.326843
+        },
+        {
+          "x": 0.273201,
+          "y": 0.337969
+        },
+        {
+          "x": 0.348279,
+          "y": 0.337969
+        }
+      ],
+      "label": {
+        "x": 0.495308,
+        "y": 0.244784
+      },
+      "boundarySource": "Simplified from the owner annotation on September 7, 2026; review before saving."
+    },
+    {
+      "key": "mdes",
+      "name": "MDes Workspace",
+      "spaceRecordId": "recmBD1D59hycFitC",
+      "color": "#c93639",
+      "points": [
+        {
+          "x": 0.066736,
+          "y": 0.212796
+        },
+        {
+          "x": 0.163712,
+          "y": 0.212796
+        },
+        {
+          "x": 0.147028,
+          "y": 0.329624
+        },
+        {
+          "x": 0.144943,
+          "y": 0.55911
+        },
+        {
+          "x": 0.149114,
+          "y": 0.717663
+        },
+        {
+          "x": 0.149114,
+          "y": 0.855355
+        },
+        {
+          "x": 0.066736,
+          "y": 0.855355
+        }
+      ],
+      "label": {
+        "x": 0.106361,
+        "y": 0.243394
+      },
+      "boundarySource": "Simplified from the owner annotation on September 7, 2026; review before saving."
+    },
+    {
+      "key": "faculty",
+      "name": "Faculty Offices & Workspaces",
+      "spaceRecordId": null,
+      "color": "#b58b08",
+      "points": [
+        {
+          "x": 0.260688,
+          "y": 0.724618
+        },
+        {
+          "x": 0.465068,
+          "y": 0.706537
+        },
+        {
+          "x": 0.465068,
+          "y": 0.776078
+        },
+        {
+          "x": 0.914494,
+          "y": 0.776078
+        },
+        {
+          "x": 0.919708,
+          "y": 0.855355
+        },
+        {
+          "x": 0.468196,
+          "y": 0.855355
+        },
+        {
+          "x": 0.468196,
+          "y": 0.808067
+        },
+        {
+          "x": 0.260688,
+          "y": 0.808067
+        }
+      ],
+      "label": {
+        "x": 0.696559,
+        "y": 0.828929
+      },
+      "boundarySource": "Simplified from the owner annotation on September 7, 2026; review before saving."
+    },
+    {
+      "key": "phd",
+      "name": "PhD Workspace",
+      "spaceRecordId": "reccjuSTjZ1r118rY",
+      "color": "#a938be",
+      "points": [
+        {
+          "x": 0.859228,
+          "y": 0.225313
+        },
+        {
+          "x": 0.950991,
+          "y": 0.212796
+        },
+        {
+          "x": 0.950991,
+          "y": 0.855355
+        },
+        {
+          "x": 0.894682,
+          "y": 0.855355
+        },
+        {
+          "x": 0.883212,
+          "y": 0.781641
+        },
+        {
+          "x": 0.872784,
+          "y": 0.628651
+        },
+        {
+          "x": 0.860271,
+          "y": 0.420028
+        },
+        {
+          "x": 0.903024,
+          "y": 0.328234
+        },
+        {
+          "x": 0.891554,
+          "y": 0.276773
+        }
+      ],
+      "label": {
+        "x": 0.913452,
+        "y": 0.246175
+      },
+      "boundarySource": "Simplified from the owner annotation on September 7, 2026; review before saving."
+    }
+  ],
+  "workstations": [
+    {
+      "spaceRecordId": "recuZlLWg1ozJi83y",
+      "spaceId": "SPC-KI-MDES-D007",
+      "name": "MDes Desk 007",
+      "label": "7",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.083906,
+      "y": 0.302397,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recArljkLV9yy9tdt",
+      "spaceId": "SPC-KI-MDES-D008",
+      "name": "MDes Desk 008",
+      "label": "8",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099651,
+      "y": 0.301715,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recOQANq9OhH4G2N2",
+      "spaceId": "SPC-KI-MDES-D009",
+      "name": "MDes Desk 009",
+      "label": "9",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114802,
+      "y": 0.302703,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recLj4an4fTdQCskB",
+      "spaceId": "SPC-KI-MDES-D010",
+      "name": "MDes Desk 010",
+      "label": "10",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084943,
+      "y": 0.323218,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recldujUWaXq3xG5W",
+      "spaceId": "SPC-KI-MDES-D011",
+      "name": "MDes Desk 011",
+      "label": "11",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.100365,
+      "y": 0.323023,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "reci4LDJCXgaIgmaP",
+      "spaceId": "SPC-KI-MDES-D012",
+      "name": "MDes Desk 012",
+      "label": "12",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.115788,
+      "y": 0.32344,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "reclTbpfMXM2Qv3gD",
+      "spaceId": "SPC-KI-MDES-D013",
+      "name": "MDes Desk 013",
+      "label": "13",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084338,
+      "y": 0.352327,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec2jZUZIPMVcAs0c",
+      "spaceId": "SPC-KI-MDES-D014",
+      "name": "MDes Desk 014",
+      "label": "14",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099583,
+      "y": 0.352786,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recd04GFf6Utuj8pN",
+      "spaceId": "SPC-KI-MDES-D015",
+      "name": "MDes Desk 015",
+      "label": "15",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.115047,
+      "y": 0.352466,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recAdpAL7iT0cg17J",
+      "spaceId": "SPC-KI-MDES-D016",
+      "name": "MDes Desk 016",
+      "label": "16",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084078,
+      "y": 0.374483,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec6pkLvtmJ24DElq",
+      "spaceId": "SPC-KI-MDES-D017",
+      "name": "MDes Desk 017",
+      "label": "17",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099489,
+      "y": 0.3744,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recDYZS0XSJtEJ19i",
+      "spaceId": "SPC-KI-MDES-D018",
+      "name": "MDes Desk 018",
+      "label": "18",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.113859,
+      "y": 0.374483,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recFKrPPc6xRpWOkC",
+      "spaceId": "SPC-KI-MDES-D019",
+      "name": "MDes Desk 019",
+      "label": "19",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.083733,
+      "y": 0.397195,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recVsUrLNb6n6jLmm",
+      "spaceId": "SPC-KI-MDES-D020",
+      "name": "MDes Desk 020",
+      "label": "20",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099948,
+      "y": 0.397056,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recHFfg1ST9mdZ1ub",
+      "spaceId": "SPC-KI-MDES-D021",
+      "name": "MDes Desk 021",
+      "label": "21",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.116132,
+      "y": 0.396778,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec709Zfp7RLMLfKa",
+      "spaceId": "SPC-KI-MDES-D022",
+      "name": "MDes Desk 022",
+      "label": "22",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084463,
+      "y": 0.414817,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recn5cvHFDqngdzzG",
+      "spaceId": "SPC-KI-MDES-D023",
+      "name": "MDes Desk 023",
+      "label": "23",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.10047,
+      "y": 0.415512,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recSi3Wwq4fbgj3sX",
+      "spaceId": "SPC-KI-MDES-D024",
+      "name": "MDes Desk 024",
+      "label": "24",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114422,
+      "y": 0.414817,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recTVzzrlrNSwmsvy",
+      "spaceId": "SPC-KI-MDES-D025",
+      "name": "MDes Desk 025",
+      "label": "25",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.08364,
+      "y": 0.446569,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recQHD0IaBosqMcpo",
+      "spaceId": "SPC-KI-MDES-D027",
+      "name": "MDes Desk 027",
+      "label": "27",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.113859,
+      "y": 0.446569,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "reckTOTe0VdZaHvwY",
+      "spaceId": "SPC-KI-MDES-D028",
+      "name": "MDes Desk 028",
+      "label": "28",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.08364,
+      "y": 0.46714,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recy2zYONUBMu1xL3",
+      "spaceId": "SPC-KI-MDES-D029",
+      "name": "MDes Desk 029",
+      "label": "29",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099823,
+      "y": 0.46746,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recQAfJVx24t3MRVc",
+      "spaceId": "SPC-KI-MDES-D030",
+      "name": "MDes Desk 030",
+      "label": "30",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114203,
+      "y": 0.467404,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec6ym3dWmZioDdUu",
+      "spaceId": "SPC-KI-MDES-D031",
+      "name": "MDes Desk 031",
+      "label": "31",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084505,
+      "y": 0.489699,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recXsrVPHOQFHuu0j",
+      "spaceId": "SPC-KI-MDES-D032",
+      "name": "MDes Desk 032",
+      "label": "32",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.098676,
+      "y": 0.489421,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec2hBnHlqD8RDY0x",
+      "spaceId": "SPC-KI-MDES-D033",
+      "name": "MDes Desk 033",
+      "label": "33",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114609,
+      "y": 0.48956,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recmhUvpfpFwG26pw",
+      "spaceId": "SPC-KI-MDES-D034",
+      "name": "MDes Desk 034",
+      "label": "34",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084338,
+      "y": 0.50885,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec94ifOmAcQkktT5",
+      "spaceId": "SPC-KI-MDES-D035",
+      "name": "MDes Desk 035",
+      "label": "35",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.100626,
+      "y": 0.509198,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec5UIirqLYacs8qG",
+      "spaceId": "SPC-KI-MDES-D036",
+      "name": "MDes Desk 036",
+      "label": "36",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114443,
+      "y": 0.50828,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec6NHWIVshOJnUUF",
+      "spaceId": "SPC-KI-MDES-D037",
+      "name": "MDes Desk 037",
+      "label": "37",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.08341,
+      "y": 0.53828,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recOcKk9UlRzw9Gbl",
+      "spaceId": "SPC-KI-MDES-D038",
+      "name": "MDes Desk 038",
+      "label": "38",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099542,
+      "y": 0.538739,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recGzCa3WRPRrjj06",
+      "spaceId": "SPC-KI-MDES-D040",
+      "name": "MDes Desk 040",
+      "label": "40",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084401,
+      "y": 0.562703,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recu9WhWtGBhWnyeH",
+      "spaceId": "SPC-KI-MDES-D047",
+      "name": "MDes Desk 047",
+      "label": "47",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.098687,
+      "y": 0.604483,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recQ7cQtNqPZT6MKJ",
+      "spaceId": "SPC-KI-MDES-D048",
+      "name": "MDes Desk 048",
+      "label": "48",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114244,
+      "y": 0.604024,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recgzfD1PVytzNcux",
+      "spaceId": "SPC-KI-MDES-D049",
+      "name": "MDes Desk 049",
+      "label": "49",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.083754,
+      "y": 0.63159,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec5bgwkaRAdPtcy9",
+      "spaceId": "SPC-KI-MDES-D050",
+      "name": "MDes Desk 050",
+      "label": "50",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.100126,
+      "y": 0.63191,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recpg9Hv8R3hDqc4v",
+      "spaceId": "SPC-KI-MDES-D051",
+      "name": "MDes Desk 051",
+      "label": "51",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.115131,
+      "y": 0.632703,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "reczSOLRF2dlh1WiU",
+      "spaceId": "SPC-KI-MDES-D052",
+      "name": "MDes Desk 052",
+      "label": "52",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.08364,
+      "y": 0.655471,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recN6Em4uuxqDR79Y",
+      "spaceId": "SPC-KI-MDES-D053",
+      "name": "MDes Desk 053",
+      "label": "53",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.09902,
+      "y": 0.655345,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec03yQddMIpJJCv1",
+      "spaceId": "SPC-KI-MDES-D054",
+      "name": "MDes Desk 054",
+      "label": "54",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114787,
+      "y": 0.656263,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recgoBaThuHM70uPX",
+      "spaceId": "SPC-KI-MDES-D055",
+      "name": "MDes Desk 055",
+      "label": "55",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.083327,
+      "y": 0.677932,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec4Qzp7WYf73b5eu",
+      "spaceId": "SPC-KI-MDES-D056",
+      "name": "MDes Desk 056",
+      "label": "56",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.100418,
+      "y": 0.677877,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recSIDLn3enDWDaCT",
+      "spaceId": "SPC-KI-MDES-D057",
+      "name": "MDes Desk 057",
+      "label": "57",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.115444,
+      "y": 0.677877,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "reclfBTTimiVTrhra",
+      "spaceId": "SPC-KI-MDES-D058",
+      "name": "MDes Desk 058",
+      "label": "58",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.083327,
+      "y": 0.695957,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recVcET6cdwseM0Bu",
+      "spaceId": "SPC-KI-MDES-D059",
+      "name": "MDes Desk 059",
+      "label": "59",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099375,
+      "y": 0.695957,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recCymZnvKIiZtPHo",
+      "spaceId": "SPC-KI-MDES-D060",
+      "name": "MDes Desk 060",
+      "label": "60",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.114609,
+      "y": 0.695957,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recGp30y6YOe5uJJ3",
+      "spaceId": "SPC-KI-MDES-D061",
+      "name": "MDes Desk 061",
+      "label": "61",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.08439,
+      "y": 0.72917,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recfJW5QqZxVz1WPg",
+      "spaceId": "SPC-KI-MDES-D062",
+      "name": "MDes Desk 062",
+      "label": "62",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.099375,
+      "y": 0.72917,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "rec1OAzoh6xtB1gBZ",
+      "spaceId": "SPC-KI-MDES-D063",
+      "name": "MDes Desk 063",
+      "label": "63",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.115444,
+      "y": 0.72917,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recaa8gFxZ1ic3fnH",
+      "spaceId": "SPC-KI-MDES-D064",
+      "name": "MDes Desk 064",
+      "label": "64",
+      "zone": "mdes",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.084265,
+      "y": 0.747905,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Existing numbered desk label on the 2018 source plan; current placement unverified."
+    },
+    {
+      "spaceRecordId": "recZruEenzfuUhUwd",
+      "spaceId": "SPC-KI-PHD-D007",
+      "name": "PhD Desk 007",
+      "label": "7",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.269819,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recOIXWtdlPw529yc",
+      "spaceId": "SPC-KI-PHD-D008",
+      "name": "PhD Desk 008",
+      "label": "8",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.269819,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recmd57yKnLHANUxr",
+      "spaceId": "SPC-KI-PHD-D009",
+      "name": "PhD Desk 009",
+      "label": "9",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.346314,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "rec9JKTsJkNjn3wOR",
+      "spaceId": "SPC-KI-PHD-D010",
+      "name": "PhD Desk 010",
+      "label": "10",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.346314,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "rec7LdZrTm3EybjpN",
+      "spaceId": "SPC-KI-PHD-D011",
+      "name": "PhD Desk 011",
+      "label": "11",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.422809,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recUmnlbgDKennGy7",
+      "spaceId": "SPC-KI-PHD-D012",
+      "name": "PhD Desk 012",
+      "label": "12",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.422809,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recEf49O1sqSPDrku",
+      "spaceId": "SPC-KI-PHD-D013",
+      "name": "PhD Desk 013",
+      "label": "13",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.499305,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recSJGyQjLbj1JIAv",
+      "spaceId": "SPC-KI-PHD-D014",
+      "name": "PhD Desk 014",
+      "label": "14",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.499305,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "rec1HsMAnLrZWhrfh",
+      "spaceId": "SPC-KI-PHD-D015",
+      "name": "PhD Desk 015",
+      "label": "15",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.5758,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recmk0tRES9iWpGJj",
+      "spaceId": "SPC-KI-PHD-D016",
+      "name": "PhD Desk 016",
+      "label": "16",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.5758,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recG6pZX3KXbcnMFb",
+      "spaceId": "SPC-KI-PHD-D017",
+      "name": "PhD Desk 017",
+      "label": "17",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.652295,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recSyU1J0EgWuZn1g",
+      "spaceId": "SPC-KI-PHD-D018",
+      "name": "PhD Desk 018",
+      "label": "18",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.652295,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "rec3mjqwZGe7RTCuz",
+      "spaceId": "SPC-KI-PHD-D019",
+      "name": "PhD Desk 019",
+      "label": "19",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.911366,
+      "y": 0.72879,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    },
+    {
+      "spaceRecordId": "recpfpVBtiDPrAzJc",
+      "spaceId": "SPC-KI-PHD-D020",
+      "name": "PhD Desk 020",
+      "label": "20",
+      "zone": "phd",
+      "floorPlanRecordId": "recmjz41vDiw18aoC",
+      "type": "rectangle",
+      "x": 0.929093,
+      "y": 0.72879,
+      "width": 0.014599,
+      "height": 0.01669,
+      "rotation": 0,
+      "reviewStatus": "draft",
+      "positionSource": "Proposed schematic position on the east side; not a measured or verified desk location."
+    }
+  ]
+}

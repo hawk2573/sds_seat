@@ -1,0 +1,105 @@
+{
+  "version": 2,
+  "revision": "draft-02",
+  "status": "source-layout-review-draft",
+  "baseId": "appr3HkHrFMEyePyN",
+  "sourceAnnotationSha256": "5bb7124bce9271d27b460c82dd3b5674df8c8c6af9c92c09e9e5296f28fa9845",
+  "notes": [
+    "Each file has its own coordinate system; use only its matching geometry.",
+    "Linked geometry preserves existing Space IDs; it does not create workstations.",
+    "Reference desks are visual placeholders and must not be imported as active inventory.",
+    "Room footprints and circulation are simplified traces of the old source, not surveyed dimensions.",
+    "PhD positions are proposed. All arrangements need on-site confirmation.",
+    "No Airtable writes are performed by this generator."
+  ],
+  "plans": [
+    {
+      "key": "mdes",
+      "name": "MDes",
+      "zoneSpaceRecordId": "recmBD1D59hycFitC",
+      "floorPlanRecordId": "reczg3WErH2SXW44D",
+      "level": "Level 2",
+      "image": "mdes.png",
+      "svg": "mdes.svg",
+      "pdf": "../../../output/pdf/kaplan-mdes.pdf",
+      "revision": "draft-02",
+      "layoutBasis": "source-relative-room-tracing",
+      "sourceCrop": {
+        "x": 58,
+        "y": 145,
+        "width": 432,
+        "height": 480
+      },
+      "coordinateWidth": 880,
+      "coordinateHeight": 1140,
+      "imageWidth": 2640,
+      "imageHeight": 3420
+    },
+    {
+      "key": "faculty",
+      "name": "Faculty",
+      "zoneSpaceRecordId": null,
+      "floorPlanRecordId": "recPQVQAJu0sV36ta",
+      "level": "Level 2",
+      "image": "faculty.png",
+      "svg": "faculty.svg",
+      "pdf": "../../../output/pdf/kaplan-faculty.pdf",
+      "revision": "draft-02",
+      "layoutBasis": "source-relative-room-tracing",
+      "sourceCrop": {
+        "x": 245,
+        "y": 380,
+        "width": 673,
+        "height": 245
+      },
+      "coordinateWidth": 1140,
+      "coordinateHeight": 880,
+      "imageWidth": 3420,
+      "imageHeight": 2640
+    },
+    {
+      "key": "phd",
+      "name": "PhD",
+      "zoneSpaceRecordId": "reccjuSTjZ1r118rY",
+      "floorPlanRecordId": "rechmO5RMbvv8LCKr",
+      "level": "Level 2",
+      "image": "phd.png",
+      "svg": "phd.svg",
+      "pdf": "../../../output/pdf/kaplan-phd.pdf",
+      "revision": "draft-02",
+      "layoutBasis": "source-relative-room-tracing",
+      "sourceCrop": {
+        "x": 590,
+        "y": 145,
+        "width": 328,
+        "height": 480
+      },
+      "coordinateWidth": 880,
+      "coordinateHeight": 1140,
+      "imageWidth": 2640,
+      "imageHeight": 3420
+    },
+    {
+      "key": "shared-administrative",
+      "name": "Public & Administrative",
+      "zoneSpaceRecordId": null,
+      "floorPlanRecordId": "recytZCyzHuJyoY2d",
+      "level": "Level 2",
+      "image": "shared-administrative.png",
+      "svg": "shared-administrative.svg",
+      "pdf": "../../../output/pdf/kaplan-shared-administrative.pdf",
+      "revision": "draft-02",
+      "layoutBasis": "source-relative-room-tracing",
+      "sourceCrop": {
+        "x": 198,
+        "y": 145,
+        "width": 656,
+        "height": 420
+      },
+      "coordinateWidth": 1140,
+      "coordinateHeight": 880,
+      "imageWidth": 3420,
+      "imageHeight": 2640
+    }
+  ]
+}

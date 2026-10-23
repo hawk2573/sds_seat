@@ -1,0 +1,37 @@
+{
+  "name": "sods-space-assignment-manager",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Airtable floor-plan-based space assignment manager for IIT School of Design & Society",
+  "scripts": {
+    "start": "block run",
+    "check": "npm run lint && npm test && npm run build",
+    "audit:runtime": "npm audit --omit=dev",
+    "build": "tsc --noEmit && esbuild src/index.tsx --bundle --outdir=dist --loader:.css=css --format=iife --platform=browser --minify --sourcemap",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts,.tsx"
+  },
+  "dependencies": {
+    "@airtable/blocks": "1.19.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "overrides": {
+    "@airtable/blocks-cli": {
+      "qs": "6.16.0"
+    }
+  },
+  "devDependencies": {
+    "@airtable/blocks-cli": "3.0.3",
+    "@types/react": "17.0.87",
+    "@types/react-dom": "17.0.26",
+    "@typescript-eslint/eslint-plugin": "8.69.0",
+    "@typescript-eslint/parser": "8.69.0",
+    "esbuild": "0.25.12",
+    "eslint": "8.57.1",
+    "typescript": "5.9.2",
+    "vitest": "3.2.7"
+  }
+}

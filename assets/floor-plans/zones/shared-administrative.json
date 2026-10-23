@@ -1,0 +1,225 @@
+{
+  "key": "shared-administrative",
+  "name": "Public & Administrative",
+  "zoneSpaceRecordId": null,
+  "floorPlanRecordId": "recytZCyzHuJyoY2d",
+  "level": "Level 2",
+  "image": "shared-administrative.png",
+  "svg": "shared-administrative.svg",
+  "pdf": "../../../output/pdf/kaplan-shared-administrative.pdf",
+  "revision": "draft-02",
+  "layoutBasis": "source-relative-room-tracing",
+  "sourceCrop": {
+    "x": 198,
+    "y": 145,
+    "width": 656,
+    "height": 420
+  },
+  "coordinateWidth": 1140,
+  "coordinateHeight": 880,
+  "imageWidth": 3420,
+  "imageHeight": 2640,
+  "geometry": [],
+  "referenceWorkstations": [
+    {
+      "label": "S01",
+      "displayLabel": "1",
+      "sourceNumber": 1,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 1",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.5212259,
+      "y": 0.43858144,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 552.9254,
+        "y": 289.6834
+      }
+    },
+    {
+      "label": "S02",
+      "displayLabel": "2",
+      "sourceNumber": 2,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 2",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.54149386,
+      "y": 0.43905466,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 571.2354,
+        "y": 290.0134
+      }
+    },
+    {
+      "label": "S03",
+      "displayLabel": "3",
+      "sourceNumber": 3,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 3",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.52070564,
+      "y": 0.47985147,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 552.4554,
+        "y": 318.4634
+      }
+    },
+    {
+      "label": "S04",
+      "displayLabel": "4",
+      "sourceNumber": 4,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 4",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.54125034,
+      "y": 0.47983713,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 571.0154,
+        "y": 318.4534
+      }
+    },
+    {
+      "label": "S05",
+      "displayLabel": "5",
+      "sourceNumber": 5,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 5",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.5212259,
+      "y": 0.49867966,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 552.9254,
+        "y": 331.5934
+      }
+    },
+    {
+      "label": "S06",
+      "displayLabel": "6",
+      "sourceNumber": 6,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 6",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.54161563,
+      "y": 0.49892344,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 571.3454,
+        "y": 331.7634
+      }
+    },
+    {
+      "label": "S07",
+      "displayLabel": "7",
+      "sourceNumber": 7,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 7",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.52076099,
+      "y": 0.53692398,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 552.5054,
+        "y": 358.2634
+      }
+    },
+    {
+      "label": "S08",
+      "displayLabel": "8",
+      "sourceNumber": 8,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 8",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.54231299,
+      "y": 0.53596321,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 571.9754,
+        "y": 357.5934
+      }
+    },
+    {
+      "label": "S09",
+      "displayLabel": "9",
+      "sourceNumber": 9,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 9",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.52070564,
+      "y": 0.55460498,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 552.4554,
+        "y": 370.5934
+      }
+    },
+    {
+      "label": "S10",
+      "displayLabel": "10",
+      "sourceNumber": 10,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan shared-administrative desk 10",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.5394405,
+      "y": 0.55364422,
+      "width": 0.01715748,
+      "height": 0.01505682,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 569.3804,
+        "y": 369.9234
+      }
+    }
+  ]
+}

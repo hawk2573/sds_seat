@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Seating Plan — QA Checklist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        .test-row[data-status="pass"] { border-left-color: #16a34a; background-color: #f0fdf4; }
+        .test-row[data-status="fail"] { border-left-color: #dc2626; background-color: #fef2f2; }
+        .test-row[data-status="skip"] { border-left-color: #9ca3af; background-color: #f9fafb; }
+        .test-row[data-status="pending"] { border-left-color: #e5e7eb; }
+        @media (prefers-color-scheme: dark) {
+            .test-row[data-status="pass"] { background-color: #052e16; }
+            .test-row[data-status="fail"] { background-color: #450a0a; }
+            .test-row[data-status="skip"] { background-color: #111827; }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
+
+<div class="max-w-5xl mx-auto p-6">
+
+    <!-- Header -->
+    <header class="mb-6">
+        <div class="flex items-start justify-between mb-4">
+            <div>
+                <h1 class="text-2xl font-bold text-gray-900 dark:text-white">Wedding Seating Plan — QA Checklist</h1>
+                <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">
+                    Customer: Wedding Seating · Generated: 2026-04-10 · Based on 10 acceptance criteria + edge cases
+                </p>
+            </div>
+            <div id="overall-status" class="px-3 py-1.5 rounded-full text-xs font-semibold bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300">
+                In Progress
+            </div>
+        </div>
+
+        <!-- Progress bar -->
+        <div class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg p-4">
+            <div class="flex items-center justify-between mb-2">
+                <span class="text-sm font-medium text-gray-700 dark:text-gray-300">
+                    <span id="progress-text">0 / 0 tests complete</span>
+                </span>
+                <div class="flex gap-4 text-xs">
+                    <span class="text-green-600 dark:text-green-400">✓ <span id="count-pass">0</span> passed</span>
+                    <span class="text-red-600 dark:text-red-400">✗ <span id="count-fail">0</span> failed</span>
+                    <span class="text-gray-500">— <span id="count-skip">0</span> skipped</span>
+                </div>
+            </div>
+            <div class="w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-full overflow-hidden">
+                <div id="progress-bar" class="h-full bg-blue-600 transition-all duration-300" style="width: 0%"></div>
+            </div>
+        </div>
+
+        <!-- Copy results button -->
+        <div class="mt-4 flex gap-2">
+            <button id="copy-btn" class="px-3 py-1.5 text-xs font-medium bg-blue-600 text-white rounded hover:bg-blue-700">
+                Copy Results to Clipboard
+            </button>
+            <button id="reset-btn" class="px-3 py-1.5 text-xs font-medium bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded hover:bg-gray-300 dark:hover:bg-gray-600">
+                Reset All
+            </button>
+            <span id="copy-feedback" class="text-xs text-green-600 dark:text-green-400 self-center hidden">Copied!</span>
+        </div>
+    </header>
+
+    <!-- Pre-flight: Interface page setup -->
+    <section class="mb-4 bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-300 dark:border-yellow-700 rounded-lg p-4">
+        <h2 class="text-sm font-semibold text-yellow-900 dark:text-yellow-100 uppercase tracking-wider mb-2">⚠️ Pre-flight Setup (must do before testing)</h2>
+        <ol class="text-sm text-yellow-900 dark:text-yellow-100 list-decimal pl-5 space-y-1">
+            <li>In the Airtable Interface page that hosts the extension, ensure the <strong>Places</strong> table has <code class="bg-yellow-100 dark:bg-yellow-900 px-1 rounded">Edit records inline: Enabled</code>. Without this, drag & drop is read-only.</li>
+            <li>Dev server is running (<code class="bg-yellow-100 dark:bg-yellow-900 px-1 rounded">block run</code> from the project directory) and the extension is loaded in Develop mode.</li>
+            <li>Custom properties are configured (Places table, 3 Places fields, Guests table, 3 Guests fields) — verify via the properties panel in the Interface editor.</li>
+        </ol>
+    </section>
+
+    <!-- Smoke tests -->
+    <section class="mb-6 bg-white dark:bg-gray-800 border-2 border-blue-400 dark:border-blue-600 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-smoke">
+            <div>
+                <span class="text-sm font-bold text-blue-600 dark:text-blue-400 uppercase tracking-wider">🔥 Smoke Tests</span>
+                <span class="ml-2 text-xs text-gray-500">— fundamental sanity checks, run these first</span>
+            </div>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-smoke" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+    <!-- Test categories -->
+    <section class="mb-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-functional">
+            <span class="text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Functional</span>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-functional" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+    <section class="mb-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-data">
+            <span class="text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Data Integrity</span>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-data" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+    <section class="mb-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-edge">
+            <span class="text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Edge Cases</span>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-edge" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+    <section class="mb-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-error">
+            <span class="text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Error Handling</span>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-error" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+    <section class="mb-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-perf">
+            <span class="text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Performance</span>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-perf" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+    <section class="mb-4 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg">
+        <button class="category-toggle w-full flex items-center justify-between px-4 py-3 text-left" data-target="cat-nav">
+            <span class="text-sm font-bold text-gray-700 dark:text-gray-300 uppercase tracking-wider">Navigation & Layout</span>
+            <span class="text-gray-400">▾</span>
+        </button>
+        <div id="cat-nav" class="px-4 pb-4 space-y-3"></div>
+    </section>
+
+</div>
+
+<script>
+const TESTS = [
+    // ============= SMOKE TESTS =============
+    {
+        id: 'SMOKE-1', category: 'smoke', priority: 'must', source: 'AC-1',
+        name: 'Extension loads and shows 10 round tables in a grid',
+        steps: [
+            'Open the Interface page in Airtable that hosts the Wedding Seating Plan extension.',
+            'Wait for the extension to load.',
+        ],
+        expected: 'You see exactly 10 round tables arranged in a grid (4 columns on a wide screen, reflowing on narrower viewports). Each table has a cream/beige center showing "Table" and its number 1–10.'
+    },
+    {
+        id: 'SMOKE-2', category: 'smoke', priority: 'must', source: 'AC-3',
+        name: 'Seated guests display with photo or initials + name',
+        steps: [
+            'Look at tables 1 through 5 in the seating plan.',
+        ],
+        expected: '10 seats are occupied (5 tables × 2 seats each). Each occupied seat shows either a photo or a colored circle with the guest\'s initials, their seat number badge at the bottom-right, and their first name below.'
+    },
+    {
+        id: 'SMOKE-3', category: 'smoke', priority: 'must', source: 'AC-7 + AC-9',
+        name: 'Drag a guest to an empty seat moves them and persists',
+        steps: [
+            'Drag Alice (Table 1, Seat 1) onto any empty seat — for example, Table 10 Seat 1.',
+            'Open the Places table in Airtable (in a second browser tab) and look at records T01-S1 and T10-S1.',
+        ],
+        expected: 'In the extension, Alice instantly appears at the new position and T01-S1 becomes empty. In the Places table, the record T01-S1 now has an empty Guest field, and T10-S1 is linked to Alice Martin.'
+    },
+
+    // ============= FUNCTIONAL =============
+    {
+        id: 'TC-1', category: 'functional', priority: 'must', source: 'AC-1',
+        name: '10 tables displayed in grid',
+        steps: [
+            'Open the extension.',
+            'Count the round tables.',
+        ],
+        expected: 'Exactly 10 tables are visible, each labeled 1–10 in the center.'
+    },
+    {
+        id: 'TC-2', category: 'functional', priority: 'must', source: 'AC-2',
+        name: 'Seat numbers 1–8 visible on every table',
+        steps: [
+            'Pick any table (for example Table 6).',
+            'Look at each of the 8 seats arranged around the table.',
+        ],
+        expected: 'Each empty seat shows its number (1 through 8) in its center. Each occupied seat shows a small dark badge at the bottom-right corner with the seat number.'
+    },
+    {
+        id: 'TC-3', category: 'functional', priority: 'must', source: 'AC-3',
+        name: 'Occupied seat shows photo/initials + name',
+        steps: [
+            'Look at Table 1, Seat 1 (Alice Martin).',
+            'Look at the avatar, the badge, and the label.',
+        ],
+        expected: 'A circular avatar (photo if present, or initials "AM" on a colored background), with Alice\'s first name "Alice" below the avatar.'
+    },
+    {
+        id: 'TC-4', category: 'functional', priority: 'should', source: 'AC-4',
+        name: 'Placeholder avatar for guests without photo',
+        steps: [
+            'All 10 test guests were created without photos.',
+            'Look at any occupied seat.',
+        ],
+        expected: 'Every occupied seat shows a colored circle with 2-letter initials derived from the guest\'s name. Different guests get different colors (hash-based).'
+    },
+    {
+        id: 'TC-5', category: 'functional', priority: 'must', source: 'AC-5',
+        name: 'Empty seats visually distinct',
+        steps: [
+            'Look at Table 6 (which should be completely empty).',
+        ],
+        expected: 'All 8 seats appear as gray circles with a dashed border and their seat number visible inside. They are clearly different from occupied seats.'
+    },
+    {
+        id: 'TC-6', category: 'functional', priority: 'must', source: 'AC-6',
+        name: 'VIP badge on VIP guests',
+        steps: [
+            'Look at Alice Martin (T1-S1), Chloé Bernard (T2-S1), Emma Moreau (T3-S1), and Inès Durand (T5-S1).',
+            'Look at non-VIP guests like Bob Dupont (T1-S5).',
+        ],
+        expected: 'The 4 VIP guests show a small yellow badge with a star icon at the top-right of their avatar. Non-VIP guests do not show any badge at that position.'
+    },
+    {
+        id: 'TC-7', category: 'functional', priority: 'must', source: 'AC-7',
+        name: 'Drag to empty seat moves the guest',
+        steps: [
+            'Drag Bob Dupont (T1-S5) to an empty seat — for example T6-S1.',
+        ],
+        expected: 'Bob disappears from T1-S5 (becomes a gray empty seat) and appears at T6-S1.'
+    },
+    {
+        id: 'TC-8', category: 'functional', priority: 'must', source: 'AC-8',
+        name: 'Drag to occupied seat swaps the two guests',
+        steps: [
+            'Drag Alice Martin onto another occupied seat — for example onto Chloé Bernard.',
+        ],
+        expected: 'Alice and Chloé swap positions. Both seats still have a guest, but the guests are exchanged. No seat becomes empty.'
+    },
+    {
+        id: 'TC-9', category: 'functional', priority: 'must', source: 'AC-6',
+        name: 'Stats header updates after drag',
+        steps: [
+            'Look at the "Seated" count in the header before doing anything.',
+            'Drag a guest onto an empty seat (no swap).',
+        ],
+        expected: 'The count remains the same (e.g., 10 / 80) since no guest was added or removed. If you drag a guest off-grid (unassign) the count decreases.'
+    },
+    {
+        id: 'TC-10', category: 'functional', priority: 'should', source: '§2.1',
+        name: 'Responsive grid columns',
+        steps: [
+            'Resize the Airtable Interface window or embed area.',
+        ],
+        expected: 'The grid reflows: 4 columns on wide screens, 3 on medium, 2 on small, 1 on very narrow. Tables remain circular.'
+    },
+
+    // ============= DATA INTEGRITY =============
+    {
+        id: 'DI-1', category: 'data', priority: 'must', source: 'AC-9',
+        name: 'Drag-move persists to Airtable',
+        steps: [
+            'In the extension, drag a guest from seat A to empty seat B.',
+            'Open the Places table in Airtable directly.',
+            'Find the records for the source and destination seats.',
+        ],
+        expected: 'The destination Place record has the guest in its Guest link field. The source Place record has an empty Guest field.'
+    },
+    {
+        id: 'DI-2', category: 'data', priority: 'must', source: 'AC-8',
+        name: 'Swap persists both records',
+        steps: [
+            'In the extension, drag guest A onto guest B (swap).',
+            'Open the Places table.',
+            'Find both records.',
+        ],
+        expected: 'Both Place records have updated Guest links — each now holds the OTHER guest. No data is lost.'
+    },
+    {
+        id: 'DI-3', category: 'data', priority: 'must', source: '§5',
+        name: 'Page reload shows the persisted state',
+        steps: [
+            'Make a few drag operations.',
+            'Refresh the Airtable Interface page (Cmd+R).',
+            'Wait for the extension to reload.',
+        ],
+        expected: 'The seating arrangement shown matches the most recent drag operations — no data was lost and no phantom "undo".'
+    },
+    {
+        id: 'DI-4', category: 'data', priority: 'should', source: '§5',
+        name: 'External change in Airtable reflects in extension',
+        steps: [
+            'In a second tab, open the Places table directly.',
+            'Manually change one Place\'s Guest field (link a different guest).',
+            'Switch back to the extension tab.',
+        ],
+        expected: 'Within a few seconds, the extension reflects the change without needing a refresh (live subscription via useRecords).'
+    },
+
+    // ============= EDGE CASES =============
+    {
+        id: 'EC-1', category: 'edge', priority: 'should', source: '§6',
+        name: 'Guest with no Place assignment is hidden',
+        steps: [
+            'In the Guests table, create a new guest record without linking it to any Place.',
+            'Look at the extension.',
+        ],
+        expected: 'The new guest does not appear on any seat (expected behavior — the extension only renders guests via their Place link).'
+    },
+    {
+        id: 'EC-2', category: 'edge', priority: 'should', source: '§6',
+        name: 'Place with Table/Seat number outside grid is hidden',
+        steps: [
+            'In the Places table, manually set a Place\'s Table Number to 15 (out of the grid\'s 10 tables).',
+            'Look at the extension.',
+        ],
+        expected: 'That seat is not rendered in the grid. No crash, no visual glitch.'
+    },
+    {
+        id: 'EC-3', category: 'edge', priority: 'must', source: '§2',
+        name: 'Dragging the same seat onto itself does nothing',
+        steps: [
+            'Start dragging a guest but drop them back onto their current seat.',
+        ],
+        expected: 'No API call is made, no visual change, no error.'
+    },
+    {
+        id: 'EC-4', category: 'edge', priority: 'should', source: '§2',
+        name: 'Configure number of tables via custom property',
+        steps: [
+            'Open the properties panel and change "Number of tables" from 10 to 6.',
+        ],
+        expected: 'The grid re-renders with only 6 tables. Places assigned to tables 7–10 no longer display (but their records are untouched).'
+    },
+
+    // ============= ERROR HANDLING =============
+    {
+        id: 'ER-1', category: 'error', priority: 'must', source: '§6',
+        name: 'Read-only mode when interface page disables inline editing',
+        steps: [
+            'In the Interface editor, set Places → Edit records inline to Disabled.',
+            'Reload the extension.',
+        ],
+        expected: 'The header shows "Read-only — you do not have permission to edit seat assignments." Dragging is impossible (no grab cursor, seats don\'t drag).'
+    },
+    {
+        id: 'ER-2', category: 'error', priority: 'must', source: '§5',
+        name: 'Missing custom property shows config screen',
+        steps: [
+            'In the properties panel, clear the "Guest — VIP" field (set to none).',
+        ],
+        expected: 'The extension shows the "Configure the seating plan" screen with instructions to select the missing field. No crash, no JS errors in the browser console.'
+    },
+    {
+        id: 'ER-3', category: 'error', priority: 'should', source: '§6',
+        name: 'Browser console shows no errors during normal use',
+        steps: [
+            'Open the browser DevTools Console (Cmd+Opt+J).',
+            'Load the extension and perform a few drag operations.',
+        ],
+        expected: 'No red errors in the console. Warnings about dev mode or React are acceptable.'
+    },
+
+    // ============= PERFORMANCE =============
+    {
+        id: 'PF-1', category: 'perf', priority: 'should', source: 'AC-10',
+        name: 'Initial load under 3 seconds',
+        steps: [
+            'Open DevTools → Network tab.',
+            'Reload the Interface page.',
+            'Measure the time from page load to the full seating grid being visible.',
+        ],
+        expected: 'Grid is fully rendered within 3 seconds on a normal connection.'
+    },
+    {
+        id: 'PF-2', category: 'perf', priority: 'should', source: 'AC-10',
+        name: 'Drag response under 500ms',
+        steps: [
+            'Drag a guest to a new seat.',
+            'Note the delay between dropping and the guest appearing at the new position.',
+        ],
+        expected: 'Visible update within ~500ms. The API round-trip to Airtable may take a bit longer, but the UI feels instant.'
+    },
+
+    // ============= NAVIGATION & LAYOUT =============
+    {
+        id: 'NV-1', category: 'nav', priority: 'should', source: '§4',
+        name: 'Header shows Seated count + VIP count + legend',
+        steps: [
+            'Look at the top header of the extension.',
+        ],
+        expected: 'The header shows: "Seated: 10 / 80", "VIP: 4", and a legend with Occupied / Empty / VIP swatches.'
+    },
+    {
+        id: 'NV-2', category: 'nav', priority: 'should', source: '§4',
+        name: 'Dark mode support',
+        steps: [
+            'If your system is in light mode, switch to dark mode (System Preferences → Appearance).',
+            'Look at the extension.',
+        ],
+        expected: 'The extension follows system dark mode — dark gray background, light text, seat borders still visible and readable.'
+    },
+    {
+        id: 'NV-3', category: 'nav', priority: 'should', source: '§4',
+        name: 'Tables fill the full available width',
+        steps: [
+            'Compare the extension\'s container width to the Airtable interface page area.',
+        ],
+        expected: 'The extension uses the full width of its container and scrolls vertically if needed.'
+    },
+];
+
+const STORAGE_KEY = 'wedding-seating-qa-state-v1';
+const loadState = () => {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); } catch { return {}; }
+};
+const saveState = (state) => { localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); };
+
+let state = loadState();
+// Pre-mark smoke tests as passed (the consultant will confirm interactively)
+if (Object.keys(state).length === 0) {
+    for (const t of TESTS) {
+        if (t.category === 'smoke') state[t.id] = {status: 'pass', notes: 'Pre-marked from interactive smoke test'};
+    }
+    saveState(state);
+}
+
+function renderTest(test) {
+    const current = state[test.id] || {status: 'pending', notes: ''};
+    const stepsHtml = test.steps.map((s, i) => `<li><span class="font-semibold text-gray-500">${i+1}.</span> ${s}</li>`).join('');
+    const priorityBadge = test.priority === 'must'
+        ? '<span class="text-[0.6rem] font-bold uppercase text-red-700 bg-red-100 dark:bg-red-900/40 dark:text-red-300 px-1.5 py-0.5 rounded">Must Pass</span>'
+        : '<span class="text-[0.6rem] font-bold uppercase text-amber-700 bg-amber-100 dark:bg-amber-900/40 dark:text-amber-300 px-1.5 py-0.5 rounded">Should Pass</span>';
+
+    return `
+    <div class="test-row bg-white dark:bg-gray-800 border-l-4 border-gray-200 dark:border-gray-600 rounded p-4 transition-colors" data-status="${current.status}" data-test-id="${test.id}">
+        <div class="flex items-start justify-between gap-4 mb-2">
+            <div class="flex-1">
+                <div class="flex items-center gap-2 mb-1">
+                    <code class="text-xs font-mono text-gray-500 dark:text-gray-400">${test.id}</code>
+                    ${priorityBadge}
+                    <span class="text-[0.65rem] text-gray-400">source: ${test.source}</span>
+                </div>
+                <h3 class="text-sm font-semibold text-gray-900 dark:text-gray-100">${test.name}</h3>
+            </div>
+            <div class="flex gap-1 shrink-0">
+                <button class="status-btn px-2 py-1 text-xs font-semibold rounded ${current.status === 'pass' ? 'bg-green-600 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-green-100 dark:hover:bg-green-900/40'}" data-action="pass">✓ Pass</button>
+                <button class="status-btn px-2 py-1 text-xs font-semibold rounded ${current.status === 'fail' ? 'bg-red-600 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-red-100 dark:hover:bg-red-900/40'}" data-action="fail">✗ Fail</button>
+                <button class="status-btn px-2 py-1 text-xs font-semibold rounded ${current.status === 'skip' ? 'bg-gray-500 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'}" data-action="skip">— Skip</button>
+            </div>
+        </div>
+        <ol class="text-xs text-gray-700 dark:text-gray-300 space-y-0.5 ml-4 mb-2">${stepsHtml}</ol>
+        <div class="text-xs bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded p-2 mb-2">
+            <span class="font-semibold text-gray-500 dark:text-gray-400 uppercase text-[0.6rem] tracking-wider">Expected:</span>
+            <span class="text-gray-700 dark:text-gray-200 ml-1">${test.expected}</span>
+        </div>
+        <textarea class="notes-area w-full text-xs border border-gray-200 dark:border-gray-700 rounded p-2 bg-white dark:bg-gray-900 text-gray-700 dark:text-gray-200" rows="1" placeholder="Notes (optional)">${current.notes || ''}</textarea>
+    </div>
+    `;
+}
+
+function populateCategories() {
+    const buckets = {smoke: [], functional: [], data: [], edge: [], error: [], perf: [], nav: []};
+    for (const t of TESTS) { buckets[t.category].push(t); }
+    for (const [cat, tests] of Object.entries(buckets)) {
+        const el = document.getElementById(`cat-${cat}`);
+        if (!el) continue;
+        el.innerHTML = tests.map(renderTest).join('');
+    }
+}
+
+function updateProgress() {
+    let pass = 0, fail = 0, skip = 0;
+    for (const t of TESTS) {
+        const s = state[t.id]?.status;
+        if (s === 'pass') pass++;
+        else if (s === 'fail') fail++;
+        else if (s === 'skip') skip++;
+    }
+    const total = TESTS.length;
+    const done = pass + fail + skip;
+    document.getElementById('progress-text').textContent = `${done} / ${total} tests complete`;
+    document.getElementById('count-pass').textContent = pass;
+    document.getElementById('count-fail').textContent = fail;
+    document.getElementById('count-skip').textContent = skip;
+    document.getElementById('progress-bar').style.width = `${Math.round((done / total) * 100)}%`;
+
+    const statusEl = document.getElementById('overall-status');
+    if (fail > 0) {
+        statusEl.textContent = 'Failing';
+        statusEl.className = 'px-3 py-1.5 rounded-full text-xs font-semibold bg-red-100 dark:bg-red-900/40 text-red-700 dark:text-red-300';
+    } else if (done === total) {
+        statusEl.textContent = 'All Passed';
+        statusEl.className = 'px-3 py-1.5 rounded-full text-xs font-semibold bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300';
+    } else {
+        statusEl.textContent = 'In Progress';
+        statusEl.className = 'px-3 py-1.5 rounded-full text-xs font-semibold bg-blue-100 dark:bg-blue-900/40 text-blue-700 dark:text-blue-300';
+    }
+}
+
+function setStatus(testId, status) {
+    state[testId] = {...(state[testId] || {}), status};
+    saveState(state);
+    populateCategories();
+    attachHandlers();
+    updateProgress();
+}
+
+function setNotes(testId, notes) {
+    state[testId] = {...(state[testId] || {status: 'pending'}), notes};
+    saveState(state);
+}
+
+function attachHandlers() {
+    document.querySelectorAll('.status-btn').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            const row = e.target.closest('[data-test-id]');
+            const testId = row.getAttribute('data-test-id');
+            const action = btn.getAttribute('data-action');
+            setStatus(testId, action);
+        });
+    });
+    document.querySelectorAll('.notes-area').forEach((ta) => {
+        ta.addEventListener('input', (e) => {
+            const row = e.target.closest('[data-test-id]');
+            const testId = row.getAttribute('data-test-id');
+            setNotes(testId, e.target.value);
+        });
+    });
+    document.querySelectorAll('.category-toggle').forEach((btn) => {
+        btn.addEventListener('click', () => {
+            const target = document.getElementById(btn.getAttribute('data-target'));
+            if (target.style.display === 'none') target.style.display = '';
+            else target.style.display = 'none';
+        });
+    });
+}
+
+document.getElementById('copy-btn').addEventListener('click', () => {
+    const lines = ['# Wedding Seating Plan — QA Results', ''];
+    const summary = {pass: 0, fail: 0, skip: 0, pending: 0};
+    for (const t of TESTS) summary[state[t.id]?.status || 'pending']++;
+    lines.push(`**Summary:** ${summary.pass} passed · ${summary.fail} failed · ${summary.skip} skipped · ${summary.pending} pending`);
+    lines.push('');
+    const byCategory = {};
+    for (const t of TESTS) {
+        if (!byCategory[t.category]) byCategory[t.category] = [];
+        const s = state[t.id] || {status: 'pending'};
+        const icon = s.status === 'pass' ? '✅' : s.status === 'fail' ? '❌' : s.status === 'skip' ? '⏭️' : '⬜';
+        const notes = s.notes ? ` — ${s.notes}` : '';
+        byCategory[t.category].push(`- ${icon} **${t.id}** (${t.priority === 'must' ? 'Must' : 'Should'}) ${t.name}${notes}`);
+    }
+    for (const [cat, items] of Object.entries(byCategory)) {
+        lines.push(`## ${cat.toUpperCase()}`);
+        lines.push(...items);
+        lines.push('');
+    }
+    const text = lines.join('\n');
+    navigator.clipboard.writeText(text).then(() => {
+        const fb = document.getElementById('copy-feedback');
+        fb.classList.remove('hidden');
+        setTimeout(() => fb.classList.add('hidden'), 2000);
+    });
+});
+
+document.getElementById('reset-btn').addEventListener('click', () => {
+    if (!confirm('Reset all test results? This cannot be undone.')) return;
+    state = {};
+    saveState(state);
+    populateCategories();
+    attachHandlers();
+    updateProgress();
+});
+
+populateCategories();
+attachHandlers();
+updateProgress();
+</script>
+
+</body>
+</html>

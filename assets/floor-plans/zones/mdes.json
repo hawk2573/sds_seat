@@ -1,0 +1,1466 @@
+{
+  "key": "mdes",
+  "name": "MDes",
+  "zoneSpaceRecordId": "recmBD1D59hycFitC",
+  "floorPlanRecordId": "reczg3WErH2SXW44D",
+  "level": "Level 2",
+  "image": "mdes.png",
+  "svg": "mdes.svg",
+  "pdf": "../../../output/pdf/kaplan-mdes.pdf",
+  "revision": "draft-02",
+  "layoutBasis": "source-relative-room-tracing",
+  "sourceCrop": {
+    "x": 58,
+    "y": 145,
+    "width": 432,
+    "height": 480
+  },
+  "coordinateWidth": 880,
+  "coordinateHeight": 1140,
+  "imageWidth": 2640,
+  "imageHeight": 3420,
+  "geometry": [
+    {
+      "label": "07",
+      "displayLabel": "7",
+      "sourceNumber": 7,
+      "spaceRecordId": "recuZlLWg1ozJi83y",
+      "spaceId": "SPC-KI-MDES-D007",
+      "name": "MDes Desk 007",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13803898,
+      "y": 0.28985195,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.4654,
+        "y": 223.4234
+      }
+    },
+    {
+      "label": "08",
+      "displayLabel": "8",
+      "sourceNumber": 8,
+      "spaceRecordId": "recArljkLV9yy9tdt",
+      "spaceId": "SPC-KI-MDES-D008",
+      "name": "MDes Desk 008",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16627999,
+      "y": 0.28914453,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.5654,
+        "y": 222.9334
+      }
+    },
+    {
+      "label": "09",
+      "displayLabel": "9",
+      "sourceNumber": 9,
+      "spaceRecordId": "recOQANq9OhH4G2N2",
+      "spaceId": "SPC-KI-MDES-D009",
+      "name": "MDes Desk 009",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19345494,
+      "y": 0.29016957,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.0954,
+        "y": 223.6434
+      }
+    },
+    {
+      "label": "10",
+      "displayLabel": "10",
+      "sourceNumber": 10,
+      "spaceRecordId": "recLj4an4fTdQCskB",
+      "spaceId": "SPC-KI-MDES-D010",
+      "name": "MDes Desk 010",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.1398999,
+      "y": 0.31146434,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 88.4604,
+        "y": 238.3934
+      }
+    },
+    {
+      "label": "11",
+      "displayLabel": "11",
+      "sourceNumber": 11,
+      "spaceRecordId": "recldujUWaXq3xG5W",
+      "spaceId": "SPC-KI-MDES-D011",
+      "name": "MDes Desk 011",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16756112,
+      "y": 0.31126222,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 103.2504,
+        "y": 238.2534
+      }
+    },
+    {
+      "label": "12",
+      "displayLabel": "12",
+      "sourceNumber": 12,
+      "spaceRecordId": "reci4LDJCXgaIgmaP",
+      "spaceId": "SPC-KI-MDES-D012",
+      "name": "MDes Desk 012",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19522234,
+      "y": 0.31169533,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 118.0404,
+        "y": 238.5534
+      }
+    },
+    {
+      "label": "13",
+      "displayLabel": "13",
+      "sourceNumber": 13,
+      "spaceRecordId": "reclTbpfMXM2Qv3gD",
+      "spaceId": "SPC-KI-MDES-D013",
+      "name": "MDes Desk 013",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13881514,
+      "y": 0.34168126,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.8804,
+        "y": 259.3234
+      }
+    },
+    {
+      "label": "14",
+      "displayLabel": "14",
+      "sourceNumber": 14,
+      "spaceRecordId": "rec2jZUZIPMVcAs0c",
+      "spaceId": "SPC-KI-MDES-D014",
+      "name": "MDes Desk 014",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16615842,
+      "y": 0.34215769,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.5004,
+        "y": 259.6534
+      }
+    },
+    {
+      "label": "15",
+      "displayLabel": "15",
+      "sourceNumber": 15,
+      "spaceRecordId": "recd04GFf6Utuj8pN",
+      "spaceId": "SPC-KI-MDES-D015",
+      "name": "MDes Desk 015",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19389445,
+      "y": 0.34182563,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.3304,
+        "y": 259.4234
+      }
+    },
+    {
+      "label": "16",
+      "displayLabel": "16",
+      "sourceNumber": 16,
+      "spaceRecordId": "recAdpAL7iT0cg17J",
+      "spaceId": "SPC-KI-MDES-D016",
+      "name": "MDes Desk 016",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13834758,
+      "y": 0.36467962,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.6304,
+        "y": 275.2534
+      }
+    },
+    {
+      "label": "17",
+      "displayLabel": "17",
+      "sourceNumber": 17,
+      "spaceRecordId": "rec6pkLvtmJ24DElq",
+      "spaceId": "SPC-KI-MDES-D017",
+      "name": "MDes Desk 017",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16599009,
+      "y": 0.36459299,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.4104,
+        "y": 275.1934
+      }
+    },
+    {
+      "label": "18",
+      "displayLabel": "18",
+      "sourceNumber": 18,
+      "spaceRecordId": "recDYZS0XSJtEJ19i",
+      "spaceId": "SPC-KI-MDES-D018",
+      "name": "MDes Desk 018",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19176235,
+      "y": 0.36467962,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.1904,
+        "y": 275.2534
+      }
+    },
+    {
+      "label": "19",
+      "displayLabel": "19",
+      "sourceNumber": 19,
+      "spaceRecordId": "recFKrPPc6xRpWOkC",
+      "spaceId": "SPC-KI-MDES-D019",
+      "name": "MDes Desk 019",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13773039,
+      "y": 0.38825546,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.3004,
+        "y": 291.5834
+      }
+    },
+    {
+      "label": "20",
+      "displayLabel": "20",
+      "sourceNumber": 20,
+      "spaceRecordId": "recVsUrLNb6n6jLmm",
+      "spaceId": "SPC-KI-MDES-D020",
+      "name": "MDes Desk 020",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16681301,
+      "y": 0.38811109,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.8504,
+        "y": 291.4834
+      }
+    },
+    {
+      "label": "21",
+      "displayLabel": "21",
+      "sourceNumber": 21,
+      "spaceRecordId": "recHFfg1ST9mdZ1ub",
+      "spaceId": "SPC-KI-MDES-D021",
+      "name": "MDes Desk 021",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19583953,
+      "y": 0.38782234,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 118.3704,
+        "y": 291.2834
+      }
+    },
+    {
+      "label": "22",
+      "displayLabel": "22",
+      "sourceNumber": 22,
+      "spaceRecordId": "rec709Zfp7RLMLfKa",
+      "spaceId": "SPC-KI-MDES-D022",
+      "name": "MDes Desk 022",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13903957,
+      "y": 0.40654731,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 88.0004,
+        "y": 304.2534
+      }
+    },
+    {
+      "label": "23",
+      "displayLabel": "23",
+      "sourceNumber": 23,
+      "spaceRecordId": "recn5cvHFDqngdzzG",
+      "spaceId": "SPC-KI-MDES-D023",
+      "name": "MDes Desk 023",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16774814,
+      "y": 0.40726916,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 103.3504,
+        "y": 304.7534
+      }
+    },
+    {
+      "label": "24",
+      "displayLabel": "24",
+      "sourceNumber": 24,
+      "spaceRecordId": "recSi3Wwq4fbgj3sX",
+      "spaceId": "SPC-KI-MDES-D024",
+      "name": "MDes Desk 024",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19277229,
+      "y": 0.40654731,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.7304,
+        "y": 304.2534
+      }
+    },
+    {
+      "label": "25",
+      "displayLabel": "25",
+      "sourceNumber": 25,
+      "spaceRecordId": "recTVzzrlrNSwmsvy",
+      "spaceId": "SPC-KI-MDES-D025",
+      "name": "MDes Desk 025",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13756206,
+      "y": 0.43950728,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.2104,
+        "y": 327.0834
+      }
+    },
+    {
+      "label": "27",
+      "displayLabel": "27",
+      "sourceNumber": 27,
+      "spaceRecordId": "recQHD0IaBosqMcpo",
+      "spaceId": "SPC-KI-MDES-D027",
+      "name": "MDes Desk 027",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19176235,
+      "y": 0.43950728,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.1904,
+        "y": 327.0834
+      }
+    },
+    {
+      "label": "28",
+      "displayLabel": "28",
+      "sourceNumber": 28,
+      "spaceRecordId": "reckTOTe0VdZaHvwY",
+      "spaceId": "SPC-KI-MDES-D028",
+      "name": "MDes Desk 028",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13756206,
+      "y": 0.46085981,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.2104,
+        "y": 341.8734
+      }
+    },
+    {
+      "label": "29",
+      "displayLabel": "29",
+      "sourceNumber": 29,
+      "spaceRecordId": "recy2zYONUBMu1xL3",
+      "spaceId": "SPC-KI-MDES-D029",
+      "name": "MDes Desk 029",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16658858,
+      "y": 0.46119186,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.7304,
+        "y": 342.1034
+      }
+    },
+    {
+      "label": "30",
+      "displayLabel": "30",
+      "sourceNumber": 30,
+      "spaceRecordId": "recQAfJVx24t3MRVc",
+      "spaceId": "SPC-KI-MDES-D030",
+      "name": "MDes Desk 030",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19237954,
+      "y": 0.46113411,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.5204,
+        "y": 342.0634
+      }
+    },
+    {
+      "label": "31",
+      "displayLabel": "31",
+      "sourceNumber": 31,
+      "spaceRecordId": "rec6ym3dWmZioDdUu",
+      "spaceId": "SPC-KI-MDES-D031",
+      "name": "MDes Desk 031",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13911438,
+      "y": 0.48427684,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 88.0404,
+        "y": 358.0934
+      }
+    },
+    {
+      "label": "32",
+      "displayLabel": "32",
+      "sourceNumber": 32,
+      "spaceRecordId": "recXsrVPHOQFHuu0j",
+      "spaceId": "SPC-KI-MDES-D032",
+      "name": "MDes Desk 032",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16453129,
+      "y": 0.4839881,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 101.6304,
+        "y": 357.8934
+      }
+    },
+    {
+      "label": "33",
+      "displayLabel": "33",
+      "sourceNumber": 33,
+      "spaceRecordId": "rec2hBnHlqD8RDY0x",
+      "spaceId": "SPC-KI-MDES-D033",
+      "name": "MDes Desk 033",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19310894,
+      "y": 0.48413247,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.9104,
+        "y": 357.9934
+      }
+    },
+    {
+      "label": "34",
+      "displayLabel": "34",
+      "sourceNumber": 34,
+      "spaceRecordId": "recmhUvpfpFwG26pw",
+      "spaceId": "SPC-KI-MDES-D034",
+      "name": "MDes Desk 034",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13881514,
+      "y": 0.50415677,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.8804,
+        "y": 371.8634
+      }
+    },
+    {
+      "label": "35",
+      "displayLabel": "35",
+      "sourceNumber": 35,
+      "spaceRecordId": "rec94ifOmAcQkktT5",
+      "spaceId": "SPC-KI-MDES-D035",
+      "name": "MDes Desk 035",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16802868,
+      "y": 0.5045177,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 103.5004,
+        "y": 372.1134
+      }
+    },
+    {
+      "label": "36",
+      "displayLabel": "36",
+      "sourceNumber": 36,
+      "spaceRecordId": "rec5UIirqLYacs8qG",
+      "spaceId": "SPC-KI-MDES-D036",
+      "name": "MDes Desk 036",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.1928097,
+      "y": 0.50356485,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.7504,
+        "y": 371.4534
+      }
+    },
+    {
+      "label": "37",
+      "displayLabel": "37",
+      "sourceNumber": 37,
+      "spaceRecordId": "rec6NHWIVshOJnUUF",
+      "spaceId": "SPC-KI-MDES-D037",
+      "name": "MDes Desk 037",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13715061,
+      "y": 0.53470575,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 86.9904,
+        "y": 393.0234
+      }
+    },
+    {
+      "label": "38",
+      "displayLabel": "38",
+      "sourceNumber": 38,
+      "spaceRecordId": "recOcKk9UlRzw9Gbl",
+      "spaceId": "SPC-KI-MDES-D038",
+      "name": "MDes Desk 038",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16608361,
+      "y": 0.53518217,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.4604,
+        "y": 393.3534
+      }
+    },
+    {
+      "label": "40",
+      "displayLabel": "40",
+      "sourceNumber": 40,
+      "spaceRecordId": "recGzCa3WRPRrjj06",
+      "spaceId": "SPC-KI-MDES-D040",
+      "name": "MDes Desk 040",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13892736,
+      "y": 0.56005736,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.9404,
+        "y": 410.5834
+      }
+    },
+    {
+      "label": "47",
+      "displayLabel": "47",
+      "sourceNumber": 47,
+      "spaceRecordId": "recu9WhWtGBhWnyeH",
+      "spaceId": "SPC-KI-MDES-D047",
+      "name": "MDes Desk 047",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16454999,
+      "y": 0.60342651,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 101.6404,
+        "y": 440.6234
+      }
+    },
+    {
+      "label": "48",
+      "displayLabel": "48",
+      "sourceNumber": 48,
+      "spaceRecordId": "recQ7cQtNqPZT6MKJ",
+      "spaceId": "SPC-KI-MDES-D048",
+      "name": "MDes Desk 048",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19245435,
+      "y": 0.60295008,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.5604,
+        "y": 440.2934
+      }
+    },
+    {
+      "label": "49",
+      "displayLabel": "49",
+      "sourceNumber": 49,
+      "spaceRecordId": "recgzfD1PVytzNcux",
+      "spaceId": "SPC-KI-MDES-D049",
+      "name": "MDes Desk 049",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13776779,
+      "y": 0.63156448,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.3204,
+        "y": 460.1134
+      }
+    },
+    {
+      "label": "50",
+      "displayLabel": "50",
+      "sourceNumber": 50,
+      "spaceRecordId": "rec5bgwkaRAdPtcy9",
+      "spaceId": "SPC-KI-MDES-D050",
+      "name": "MDes Desk 050",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16713096,
+      "y": 0.63189654,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 103.0204,
+        "y": 460.3434
+      }
+    },
+    {
+      "label": "51",
+      "displayLabel": "51",
+      "sourceNumber": 51,
+      "spaceRecordId": "recpg9Hv8R3hDqc4v",
+      "spaceId": "SPC-KI-MDES-D051",
+      "name": "MDes Desk 051",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19404407,
+      "y": 0.63271946,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.4104,
+        "y": 460.9134
+      }
+    },
+    {
+      "label": "52",
+      "displayLabel": "52",
+      "sourceNumber": 52,
+      "spaceRecordId": "reczSOLRF2dlh1WiU",
+      "spaceId": "SPC-KI-MDES-D052",
+      "name": "MDes Desk 052",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13756206,
+      "y": 0.65635304,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.2104,
+        "y": 477.2834
+      }
+    },
+    {
+      "label": "53",
+      "displayLabel": "53",
+      "sourceNumber": 53,
+      "spaceRecordId": "recN6Em4uuxqDR79Y",
+      "spaceId": "SPC-KI-MDES-D053",
+      "name": "MDes Desk 053",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16514848,
+      "y": 0.65622311,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 101.9604,
+        "y": 477.1934
+      }
+    },
+    {
+      "label": "54",
+      "displayLabel": "54",
+      "sourceNumber": 54,
+      "spaceRecordId": "rec03yQddMIpJJCv1",
+      "spaceId": "SPC-KI-MDES-D054",
+      "name": "MDes Desk 054",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19342688,
+      "y": 0.65717596,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.0804,
+        "y": 477.8534
+      }
+    },
+    {
+      "label": "55",
+      "displayLabel": "55",
+      "sourceNumber": 55,
+      "spaceRecordId": "recgoBaThuHM70uPX",
+      "spaceId": "SPC-KI-MDES-D055",
+      "name": "MDes Desk 055",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13700098,
+      "y": 0.67966902,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 86.9104,
+        "y": 493.4334
+      }
+    },
+    {
+      "label": "56",
+      "displayLabel": "56",
+      "sourceNumber": 56,
+      "spaceRecordId": "rec4Qzp7WYf73b5eu",
+      "spaceId": "SPC-KI-MDES-D056",
+      "name": "MDes Desk 056",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16765463,
+      "y": 0.67961127,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 103.3004,
+        "y": 493.3934
+      }
+    },
+    {
+      "label": "57",
+      "displayLabel": "57",
+      "sourceNumber": 57,
+      "spaceRecordId": "recSIDLn3enDWDaCT",
+      "spaceId": "SPC-KI-MDES-D057",
+      "name": "MDes Desk 057",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19460515,
+      "y": 0.67961127,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.7104,
+        "y": 493.3934
+      }
+    },
+    {
+      "label": "58",
+      "displayLabel": "58",
+      "sourceNumber": 58,
+      "spaceRecordId": "reclfBTTimiVTrhra",
+      "spaceId": "SPC-KI-MDES-D058",
+      "name": "MDes Desk 058",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13700098,
+      "y": 0.69837954,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 86.9104,
+        "y": 506.3934
+      }
+    },
+    {
+      "label": "59",
+      "displayLabel": "59",
+      "sourceNumber": 59,
+      "spaceRecordId": "recVcET6cdwseM0Bu",
+      "spaceId": "SPC-KI-MDES-D059",
+      "name": "MDes Desk 059",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16578437,
+      "y": 0.69837954,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.3004,
+        "y": 506.3934
+      }
+    },
+    {
+      "label": "60",
+      "displayLabel": "60",
+      "sourceNumber": 60,
+      "spaceRecordId": "recCymZnvKIiZtPHo",
+      "spaceId": "SPC-KI-MDES-D060",
+      "name": "MDes Desk 060",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19310894,
+      "y": 0.69837954,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.9104,
+        "y": 506.3934
+      }
+    },
+    {
+      "label": "61",
+      "displayLabel": "61",
+      "sourceNumber": 61,
+      "spaceRecordId": "recGp30y6YOe5uJJ3",
+      "spaceId": "SPC-KI-MDES-D061",
+      "name": "MDes Desk 061",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13890866,
+      "y": 0.73285542,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.9304,
+        "y": 530.2734
+      }
+    },
+    {
+      "label": "62",
+      "displayLabel": "62",
+      "sourceNumber": 62,
+      "spaceRecordId": "recfJW5QqZxVz1WPg",
+      "spaceId": "SPC-KI-MDES-D062",
+      "name": "MDes Desk 062",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.16578437,
+      "y": 0.73285542,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.3004,
+        "y": 530.2734
+      }
+    },
+    {
+      "label": "63",
+      "displayLabel": "63",
+      "sourceNumber": 63,
+      "spaceRecordId": "rec1OAzoh6xtB1gBZ",
+      "spaceId": "SPC-KI-MDES-D063",
+      "name": "MDes Desk 063",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.19460515,
+      "y": 0.73285542,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.7104,
+        "y": 530.2734
+      }
+    },
+    {
+      "label": "64",
+      "displayLabel": "64",
+      "sourceNumber": 64,
+      "spaceRecordId": "recaa8gFxZ1ic3fnH",
+      "spaceId": "SPC-KI-MDES-D064",
+      "name": "MDes Desk 064",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.13868422,
+      "y": 0.75230224,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.8104,
+        "y": 543.7434
+      }
+    }
+  ],
+  "referenceWorkstations": [
+    {
+      "label": "01",
+      "displayLabel": "1",
+      "sourceNumber": 1,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 1",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.13839433,
+      "y": 0.24506796,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.6554,
+        "y": 192.4034
+      }
+    },
+    {
+      "label": "02",
+      "displayLabel": "2",
+      "sourceNumber": 2,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 2",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16616777,
+      "y": 0.24506796,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.5054,
+        "y": 192.4034
+      }
+    },
+    {
+      "label": "03",
+      "displayLabel": "3",
+      "sourceNumber": 3,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 3",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19435267,
+      "y": 0.24552995,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.5754,
+        "y": 192.7234
+      }
+    },
+    {
+      "label": "04",
+      "displayLabel": "4",
+      "sourceNumber": 4,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 4",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.13839433,
+      "y": 0.26555425,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.6554,
+        "y": 206.5934
+      }
+    },
+    {
+      "label": "05",
+      "displayLabel": "5",
+      "sourceNumber": 5,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 5",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16440972,
+      "y": 0.26569862,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 101.5654,
+        "y": 206.6934
+      }
+    },
+    {
+      "label": "06",
+      "displayLabel": "6",
+      "sourceNumber": 6,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 6",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19326791,
+      "y": 0.26666591,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.9954,
+        "y": 207.3634
+      }
+    },
+    {
+      "label": "26",
+      "displayLabel": "26",
+      "sourceNumber": 26,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 26",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16658858,
+      "y": 0.43854,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.7304,
+        "y": 326.4134
+      }
+    },
+    {
+      "label": "39",
+      "displayLabel": "39",
+      "sourceNumber": 39,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 39",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19208029,
+      "y": 0.53531211,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.3604,
+        "y": 393.4434
+      }
+    },
+    {
+      "label": "41",
+      "displayLabel": "41",
+      "sourceNumber": 41,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 41",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16642026,
+      "y": 0.56005736,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.6404,
+        "y": 410.5834
+      }
+    },
+    {
+      "label": "42",
+      "displayLabel": "42",
+      "sourceNumber": 42,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 42",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19365132,
+      "y": 0.56028835,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.2004,
+        "y": 410.7434
+      }
+    },
+    {
+      "label": "43",
+      "displayLabel": "43",
+      "sourceNumber": 43,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 43",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.13758077,
+      "y": 0.58269478,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.2204,
+        "y": 426.2634
+      }
+    },
+    {
+      "label": "44",
+      "displayLabel": "44",
+      "sourceNumber": 44,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 44",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16642026,
+      "y": 0.58269478,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.6404,
+        "y": 426.2634
+      }
+    },
+    {
+      "label": "45",
+      "displayLabel": "45",
+      "sourceNumber": 45,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 45",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19367002,
+      "y": 0.58269478,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 117.2104,
+        "y": 426.2634
+      }
+    },
+    {
+      "label": "46",
+      "displayLabel": "46",
+      "sourceNumber": 46,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 46",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.13788001,
+      "y": 0.60295008,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.3804,
+        "y": 440.2934
+      }
+    },
+    {
+      "label": "65",
+      "displayLabel": "65",
+      "sourceNumber": 65,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 65",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16578437,
+      "y": 0.75230224,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.3004,
+        "y": 543.7434
+      }
+    },
+    {
+      "label": "66",
+      "displayLabel": "66",
+      "sourceNumber": 66,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 66",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19529715,
+      "y": 0.75322622,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 118.0804,
+        "y": 544.3834
+      }
+    },
+    {
+      "label": "67",
+      "displayLabel": "67",
+      "sourceNumber": 67,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 67",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.13868422,
+      "y": 0.77866445,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 87.8104,
+        "y": 562.0034
+      }
+    },
+    {
+      "label": "68",
+      "displayLabel": "68",
+      "sourceNumber": 68,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 68",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16578437,
+      "y": 0.77866445,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.3004,
+        "y": 562.0034
+      }
+    },
+    {
+      "label": "69",
+      "displayLabel": "69",
+      "sourceNumber": 69,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 69",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19529715,
+      "y": 0.77866445,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 118.0804,
+        "y": 562.0034
+      }
+    },
+    {
+      "label": "70",
+      "displayLabel": "70",
+      "sourceNumber": 70,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 70",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.13700098,
+      "y": 0.79829895,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 86.9104,
+        "y": 575.6034
+      }
+    },
+    {
+      "label": "71",
+      "displayLabel": "71",
+      "sourceNumber": 71,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 71",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.16681301,
+      "y": 0.79829895,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 102.8504,
+        "y": 575.6034
+      }
+    },
+    {
+      "label": "72",
+      "displayLabel": "72",
+      "sourceNumber": 72,
+      "spaceRecordId": null,
+      "spaceId": null,
+      "name": "Source-plan mdes desk 72",
+      "positionStatus": "source-label-position",
+      "inventoryStatus": "reference-only",
+      "type": "rectangle",
+      "x": 0.19237954,
+      "y": 0.79829895,
+      "width": 0.02618371,
+      "height": 0.01515899,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 116.5204,
+        "y": 575.6034
+      }
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "key": "phd",
+  "name": "PhD",
+  "zoneSpaceRecordId": "reccjuSTjZ1r118rY",
+  "floorPlanRecordId": "rechmO5RMbvv8LCKr",
+  "level": "Level 2",
+  "image": "phd.png",
+  "svg": "phd.svg",
+  "pdf": "../../../output/pdf/kaplan-phd.pdf",
+  "revision": "draft-02",
+  "layoutBasis": "source-relative-room-tracing",
+  "sourceCrop": {
+    "x": 590,
+    "y": 145,
+    "width": 328,
+    "height": 480
+  },
+  "coordinateWidth": 880,
+  "coordinateHeight": 1140,
+  "imageWidth": 2640,
+  "imageHeight": 3420,
+  "geometry": [
+    {
+      "label": "P07",
+      "displayLabel": "7",
+      "sourceNumber": 7,
+      "spaceRecordId": "recZruEenzfuUhUwd",
+      "spaceId": "SPC-KI-PHD-D007",
+      "name": "PhD Desk 007",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.25495236,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 199.99992
+      }
+    },
+    {
+      "label": "P08",
+      "displayLabel": "8",
+      "sourceNumber": 8,
+      "spaceRecordId": "recOIXWtdlPw529yc",
+      "spaceId": "SPC-KI-PHD-D008",
+      "name": "PhD Desk 008",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.25495236,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 199.99992
+      }
+    },
+    {
+      "label": "P09",
+      "displayLabel": "9",
+      "sourceNumber": 9,
+      "spaceRecordId": "recmd57yKnLHANUxr",
+      "spaceId": "SPC-KI-PHD-D009",
+      "name": "PhD Desk 009",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.33435647,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 254.99982
+      }
+    },
+    {
+      "label": "P10",
+      "displayLabel": "10",
+      "sourceNumber": 10,
+      "spaceRecordId": "rec9JKTsJkNjn3wOR",
+      "spaceId": "SPC-KI-PHD-D010",
+      "name": "PhD Desk 010",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.33435647,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 254.99982
+      }
+    },
+    {
+      "label": "P11",
+      "displayLabel": "11",
+      "sourceNumber": 11,
+      "spaceRecordId": "rec7LdZrTm3EybjpN",
+      "spaceId": "SPC-KI-PHD-D011",
+      "name": "PhD Desk 011",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.41376057,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 309.99973
+      }
+    },
+    {
+      "label": "P12",
+      "displayLabel": "12",
+      "sourceNumber": 12,
+      "spaceRecordId": "recUmnlbgDKennGy7",
+      "spaceId": "SPC-KI-PHD-D012",
+      "name": "PhD Desk 012",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.41376057,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 309.99973
+      }
+    },
+    {
+      "label": "P13",
+      "displayLabel": "13",
+      "sourceNumber": 13,
+      "spaceRecordId": "recEf49O1sqSPDrku",
+      "spaceId": "SPC-KI-PHD-D013",
+      "name": "PhD Desk 013",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.49316571,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 365.00035
+      }
+    },
+    {
+      "label": "P14",
+      "displayLabel": "14",
+      "sourceNumber": 14,
+      "spaceRecordId": "recSJGyQjLbj1JIAv",
+      "spaceId": "SPC-KI-PHD-D014",
+      "name": "PhD Desk 014",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.49316571,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 365.00035
+      }
+    },
+    {
+      "label": "P15",
+      "displayLabel": "15",
+      "sourceNumber": 15,
+      "spaceRecordId": "rec1HsMAnLrZWhrfh",
+      "spaceId": "SPC-KI-PHD-D015",
+      "name": "PhD Desk 015",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.57256981,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 420.00026
+      }
+    },
+    {
+      "label": "P16",
+      "displayLabel": "16",
+      "sourceNumber": 16,
+      "spaceRecordId": "recmk0tRES9iWpGJj",
+      "spaceId": "SPC-KI-PHD-D016",
+      "name": "PhD Desk 016",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.57256981,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 420.00026
+      }
+    },
+    {
+      "label": "P17",
+      "displayLabel": "17",
+      "sourceNumber": 17,
+      "spaceRecordId": "recG6pZX3KXbcnMFb",
+      "spaceId": "SPC-KI-PHD-D017",
+      "name": "PhD Desk 017",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.65197392,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 475.00016
+      }
+    },
+    {
+      "label": "P18",
+      "displayLabel": "18",
+      "sourceNumber": 18,
+      "spaceRecordId": "recSyU1J0EgWuZn1g",
+      "spaceId": "SPC-KI-PHD-D018",
+      "name": "PhD Desk 018",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.65197392,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 475.00016
+      }
+    },
+    {
+      "label": "P19",
+      "displayLabel": "19",
+      "sourceNumber": 19,
+      "spaceRecordId": "rec3mjqwZGe7RTCuz",
+      "spaceId": "SPC-KI-PHD-D019",
+      "name": "PhD Desk 019",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.72443222,
+      "y": 0.73137802,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 881.00021,
+        "y": 530.00007
+      }
+    },
+    {
+      "label": "P20",
+      "displayLabel": "20",
+      "sourceNumber": 20,
+      "spaceRecordId": "recpfpVBtiDPrAzJc",
+      "spaceId": "SPC-KI-PHD-D020",
+      "name": "PhD Desk 020",
+      "positionStatus": "proposed",
+      "inventoryStatus": "existing-record",
+      "type": "rectangle",
+      "x": 0.75622709,
+      "y": 0.73137802,
+      "width": 0.02618371,
+      "height": 0.01732456,
+      "rotation": 0,
+      "sourceCenter": {
+        "x": 898.00041,
+        "y": 530.00007
+      }
+    }
+  ],
+  "referenceWorkstations": []
+}
